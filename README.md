@@ -70,59 +70,6 @@ Existing digital aids, such as apps like *Be My Eyes*, often rely on volunteer a
 
 ---
 
-## 🏗️ System Architecture
 
-The application works through a continuous pipeline of data processing and user feedback:
 
-`Input (Camera/Mic)` ➔ `On-Device Models (YOLOv8, MediaPipe)` ➔ `Cloud AI (GPT-4, Whisper)` ➔ `Logic Processing` ➔ `Output (Audio Narration, Avatar)`
-
----
-
-## 🚀 Getting Started
-
-To get a local copy up and running, follow these simple steps.
-
-### Prerequisites
-* Python 3.8+
-* Node.js & npm
-* Access to a Django-compatible database
-
-### Installation & Setup
-
-1.  **Clone the Repository**
-    ```sh
-    git clone https://github.com/your-username/NavAI.git && cd NavAI/
-    ```
-
-2.  **Configure Environment Variables**
-    Create a `.env` file in the `src/` directory and add your API keys:
-    ```env
-    GOOGLE_MAPS_API_KEY="YOUR_API_KEY"
-    OPENAI_API_KEY="YOUR_API_KEY"
-    ```
-
-3.  **Install Dependencies**
-    *(Assuming a Django backend and React Native frontend)*
-    ```sh
-    # Install backend dependencies
-    pip install -r src/requirements.txt
-
-    # Install frontend dependencies
-    cd src/app && npm install
-    ```
-
-4.  **Run Migrations**
-    From the `src/` directory, apply the database migrations:
-    ```sh
-    python manage.py migrate
-    ```
-
-5.  **Run the Development Server**
-    Start the Django development server. Using **`0.0.0.0`** allows the server to be accessible from other devices on your local network (like your phone for testing the app).
-    ```sh
-    python manage.py runserver 0.0.0.0:8000
-    ```
-    Your backend is now running and accessible at `http://<your-computer-ip>:8000`.
-
----
 
