@@ -1,50 +1,49 @@
-# Welcome to your Expo app 👋
+# Welcome to the NavAI app 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Overview
 
-## Get started
+NavAI is an AI-powered mobile application designed to assist users in navigation through real-time guidance and contextual information. Built using React Native, the app provides a seamless experience across both Android and iOS platforms.
 
-1. Install dependencies
+## Features
+
+- **Real-Time Navigation**: Offers turn-by-turn directions and route optimization.
+- **Voice Assistance**: Integrates voice commands for hands-free operation.
+- **Offline Mode**: Allows navigation without an active internet connection.
+- **User-Friendly Interface**: Intuitive design for easy interaction.
+
+## Technologies Used
+
+- **React Native**: Framework for building native apps using React.
+- **React Navigation**: Routing and navigation for React Native apps.
+<!-- - **Redux**: State management for JavaScript applications.
+- **Axios**: Promise-based HTTP client for the browser and Node.js.
+- **Mapbox**: Customizable maps and location services.
+- **TensorFlow.js**: Machine learning library for the web and Node.js. -->
+
+## Installation
+
+### Prerequisites
+
+- Node.js
+- npm or yarn
+- Android Studio or Xcode for emulator/simulator
+
+### Steps
+
+1. **Clone the Repository**:
 
    ```bash
+   git clone https://github.com/Onkar2104/NavAI.git && cd NavAI/NavAI
+   ```
+
+2. **Install Dependencies**:
+   ```bash 
    npm install
    ```
 
-2. Start the app
-
+3. **Run the Application**:
    ```bash
-   npx expo start
+   npm run android
    ```
 
-In the output, you'll find options to open the app in a
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
